@@ -20,7 +20,14 @@ import DoubleTouchableOpacity from 'react-native-double-press';
 </DoubleTouchableOpacity>
 ```
 
-More on the official documentation: https://reactnative.dev/docs/touchableopacity
+## API
+### Props
+All props are spread onto underlying [TouchableOpacity component](https://reactnative.dev/docs/touchableopacity)
+
+| Name             | Type                                                   | Description                            |
+|------------------|--------------------------------------------------------|----------------------------------------|
+| onDoublePress    | ((event: GestureResponderEvent) =>  void) \| undefined | Called when double press was detected. |
+| doublePressDelay | number \| undefined                                    | Defaults to 250ms                      |
 
 ## Contributing
 

@@ -1,6 +1,6 @@
 {
   "name": "react-native-double-press",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enhance the functionality of the standard TouchableOpacity component in React Native by seamlessly integrating the capability for double presses. This package provides a DoubleTouchableOpacity component, allowing developers to easily incorporate double-click interactions into their React Native applications.\n",
   "main": "lib/commonjs/index.tsx",
   "module": "lib/module/index",
