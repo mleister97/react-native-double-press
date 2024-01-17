@@ -1,6 +1,8 @@
 # react-native-double-press
 
-Enhance the functionality of the standard TouchableOpacity component in React Native by seamlessly integrating the capability for double presses. This package provides a DoubleTouchableOpacity component, allowing developers to easily incorporate double-click interactions into their React Native applications. With adjustable delay settings for recognizing double clicks, it offers a simple and efficient solution for handling both single and double press events. Elevate user experience by effortlessly integrating double-tap functionality into your touchable components.
+Enhance the functionality of the standard TouchableOpacity component in React Native by seamlessly integrating the
+capability for double presses. This package provides a `DoubleTouchableOpacity` component, allowing developers to easily
+incorporate double-click interactions into their React Native applications.
 
 ## Installation
 
@@ -13,9 +15,9 @@ npm install react-native-double-press
 ```js
 import DoubleTouchableOpacity from 'react-native-double-press';
 
-// ...
-
-const result = await multiply(3, 7);
+<DoubleTouchableOpacity onPress={onItemPressHandler} onDoublePress={onToggleBookmarkPressHandler}>
+  <Text>Press me once or double.</Text>
+</DoubleTouchableOpacity>
 ```
 
 More on the official documentation: https://reactnative.dev/docs/touchableopacity
