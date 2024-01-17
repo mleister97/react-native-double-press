@@ -1,8 +1,16 @@
-import { type GestureResponderEvent, TouchableOpacity } from 'react-native';
+import {
+  type GestureResponderEvent,
+  TouchableOpacity,
+  type TouchableOpacityProps,
+} from 'react-native';
 import React, { useEffect, useRef, useState } from 'react';
-import type { DoubleTouchableOpacityProps } from './types';
 
 const DEFAULT_DOUBLE_PRESS_DELAY = 250;
+
+export type DoubleTouchableOpacityProps = {
+  onDoublePress?: (event: GestureResponderEvent) => void;
+  doublePressDelay?: number;
+} & TouchableOpacityProps;
 
 export default function DoubleTouchableOpacity({
   children,
